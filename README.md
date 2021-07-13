@@ -1,4 +1,4 @@
-#### Collection Slicing Clone Website
+#### Collection Slicing Clone Website using only HTML & CSS3
 ### Check This out :smile:
 
 - Youtube `https://riyaraa.github.io/Youtube` [Youtube](https://riyaraa.github.io/Youtube)

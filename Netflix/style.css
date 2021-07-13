@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+body {
+	background-image: url(./assets/images/netflix-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.container {
+	background-color: rgba(000, 000, 000, 0.7);
+	height: 100vh;
+	padding: 2rem;
+}
+.brand-img {
+	width: 200px;
+	height: 2.25rem;
+	cursor: default;
+}
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.select-form {
+	margin-right: 1.5rem;
+	padding: 8px 18px;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.btn-sign {
+	margin-right: 1.5rem;
+	padding: 8px 18px;
+	background: #e50914;
+	text-decoration: none;
+	border-radius: 3px;
+}
+.wrapper-flix {
+	padding: 2rem;
+	text-align: center;
+	margin-top: 6.5rem;
+}
+.text-xl-flix {
+	font-size: 3rem;
+}
+.text-lg-flix {
+	margin-top: 20px;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+.text-md-flix {
+	margin-top: 30px;
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+.form-flix {
+	margin-top: 20px;
+}
+.input-flix {
+	font-size: 1rem;
+	padding: 25px 8px;
+	width: 450px;
+	color: #8c8c8c;
+	border: none;
+	border-radius: 3px;
+}
+.btn-started {
+	padding: 21px 0px;
+	width: 140px;
+	border: none;
+	background: #e50914;
+	font-size: 1.4rem;
+	font-weight: 400;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.line {
+	height: 0.5rem;
+	background-color: #222;
+	border: none;
+}
+.content-television {
+	background-color: #000;
+	padding: 6rem;
+	display: flex;
+	align-items: center;
+}
+.flix-tv-left {
+	width: 50%;
+}
+.flix-tv-right {
+	width: 50%;
+}
+.font-flix-left {
+	font-size: 45px;
+}
+.paragraph-flix-left {
+	margin-top: 15px;
+	font-size: 30px;
+}
+.tv-animate {
+	background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+}
+.video-animate {
+	padding: 5rem;
+	margin-top: 20px;
+	width: 84%;
+}
+.content-app-download {
+	background-color: #000;
+	padding: 6rem;
+	display: flex;
+	align-items: center;
+}
+.left-app {
+	width: 50%;
+}
+.right-app {
+	width: 50%;
+}
+.phone-app {
+	background-image: url(./assets/images/phone-download.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+	margin-right: 100px;
+	position: relative;
+}
+.card-phone-app {
+	width: 300px;
+	margin: 250px 70px;
+	border: 1px solid gray;
+	background-color: #000;
+	color: #fff;
+	border-radius: 12px;
+	padding: 8px 12px;
+	display: flex;
+	position: absolute;
+}
+
+.card-body-phone-app-child {
+	margin: 20px;
+}
+.card-phone-title {
+	font-size: 1rem;
+	font-weight: bold;
+}
+.card-phone-paragraph {
+	color: #0072eb;
+}
+.title-download {
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+.paragraph-download {
+	font-size: 28px;
+	font-weight: normal;
+}
+.content-children {
+	background-color: #000;
+	padding: 5rem;
+	display: flex;
+	align-items: center;
+}
+.title-children {
+	font-size: 50px;
+}
+.paragraph-children {
+	font-size: 26px;
+}
+.content-question {
+	background-color: #000;
+	padding: 5rem;
+	text-align: center;
+}
+.title-question {
+	font-size: 50px;
+}
+.collapse-question {
+	font-size: 26px;
+	background-color: #303030;
+	width: 60%;
+	margin: 10px auto;
+	text-align: left;
+	padding: 24px;
+	list-style: none;
+	cursor: pointer;
+}
+.group-collapse {
+	margin-top: 40px;
+}
+.label-question {
+	font-size: 19px;
+}
+.form-question {
+	margin-top: 50px;
+}
+
+.footer-flix {
+	padding: 8rem;
+	background-color: #000;
+}
+.footer-group {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	margin-top: 15px;
+	list-style: none;
+	text-align: left;
+	color: #757575;
+}
+li:hover {
+	margin-top: 15px;
+	list-style: none;
+	text-align: left;
+	color: #757575;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.select-form-footer {
+	margin-right: 1.5rem;
+	margin-top: 20px;
+	padding: 16px 20px;
+	background: transparent;
+	border: 1px solid #808080;
+}
